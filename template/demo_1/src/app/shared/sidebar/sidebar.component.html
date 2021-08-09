@@ -61,9 +61,17 @@
     <li class="nav-item menu-items" [ngClass]="{ 'active': dashboard.isActive }">
       <a class="nav-link" routerLink="/dashboard" routerLinkActive #dashboard="routerLinkActive">
         <span class="menu-icon">
-          <i class="mdi mdi-speedometer"></i> 
+          <i class="mdi mdi-speedometer"></i>
         </span>
         <span class="menu-title" translate>Dashboard</span>
+      </a>
+    </li>
+        <li class="nav-item menu-items" [ngClass]="{ 'active': dashboard.isActive }">
+      <a class="nav-link" routerLink="/products" routerLinkActive #dashboard="routerLinkActive">
+        <span class="menu-icon">
+          <i class="mdi mdi-speedometer"></i>
+        </span>
+        <span class="menu-title" translate>Products</span>
       </a>
     </li>
     <li class="nav-item menu-items" [ngClass]="{'active' : buttons.isActive || dropdowns.isActive || typography.isActive }">

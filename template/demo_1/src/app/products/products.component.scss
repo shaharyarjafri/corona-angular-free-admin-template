@@ -1,0 +1,10 @@
+.paginate_button{
+  background: #fff;
+ cursor: pointer;
+ }
+ .paginate_button:hover{
+   background: #b20000;
+ }
+ .paginate_button.current{
+   background: #b20000;
+ }

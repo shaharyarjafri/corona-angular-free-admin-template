@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-12 grid-margin">
+    <div class="card">
+      <div class="card-body">
+        <span>
+          <h4 class="card-title">My Products</h4> </span
+        ><span style="float: right">
+          <button type="button" routerLink="/products/add-product" style="margin-bottom: 15px;" class="btn btn-primary">Add Product</button>
+        </span>
+        <div class="table-responsive">
+          <table
+            datatable
+            [dtOptions]="dtOptions"
+            [dtTrigger]="dtTrigger"
+            class="row-border hover"
+          >
+            <thead>
+              <tr style="color: #6c7293">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                style="background-color: #191c24; color: #6c7293"
+                *ngFor="let p of products"
+              >
+                <td>{{ p.Id }}</td>
+                <td>{{ p.Name }}</td>
+                <td>{{ p.Price }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,135 @@
+<div class="col-12 grid-margin">
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Add Product</h4>
+      <form class="form-sample">
+        <p class="card-description">Product Info</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Department</label>
+              <div class="col-sm-9">
+                <select class="form-control">
+                  <option *ngFor="let product of products">
+                    {{ product.Name }}
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Department</label>
+              <div class="col-sm-9">
+                <select class="form-control">
+                  <option *ngFor="let product of products">
+                    {{ product.Name }}
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Department</label>
+              <div class="col-sm-9">
+                <select class="form-control">
+                  <option *ngFor="let product of products">
+                    {{ product.Name }}
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Department</label>
+              <div class="col-sm-9">
+                <select class="form-control">
+                  <option *ngFor="let product of products">
+                    {{ product.Name }}
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Gender</label>
+              <div class="col-sm-9">
+                <select class="form-control">
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Date of Birth</label>
+              <div class="col-sm-9">
+                <input class="form-control" placeholder="dd/mm/yyyy" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Category</label>
+              <div class="col-sm-9">
+                <select class="form-control">
+                  <option>Category1</option>
+                  <option>Category2</option>
+                  <option>Category3</option>
+                  <option>Category4</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Membership</label>
+              <div class="col-sm-4">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="membershipRadios"
+                      id="membershipRadios1"
+                      value=""
+                      checked
+                    />
+                    Free
+                    <i class="input-helper"></i>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-5">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="membershipRadios"
+                      id="membershipRadios2"
+                      value="option2"
+                    />
+                    Professional
+                    <i class="input-helper"></i>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
